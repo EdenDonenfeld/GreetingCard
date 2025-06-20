@@ -1,14 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css';
 import Board from './components/Board';
 
 function App() {
+  const [turn, setTurn] = useState<string>('X');
+
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <header>
-        <h1>Cheetos X-O Game</h1>
+    <div className='App'>
+      <header className='header'>
+        <img src="cheetos.png" alt="Cheetos Logo" style={{ width: '60px', height: 'auto' }} />
+        <h1>Cheetos Tic-Tac-Toe Game</h1>
+        <img src="cheetos.png" alt="Cheetos Logo" style={{ width: '60px', height: 'auto' }} />
       </header>
-      <Board />
+      <Board turn={turn} setTurn={setTurn}/>
     </div>
   );
 }
