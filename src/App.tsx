@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
-    <p>Hello World</p>
+    <div className="App">
+      <Calculator />
+    </div>
   );
 }
 
