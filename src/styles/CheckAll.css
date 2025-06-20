@@ -1,0 +1,15 @@
+.check-all-button {
+    width: 20vw;
+    height: 2.5rem;
+    background-color: #333333;
+    color: white;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.check-all-button:hover {
+    background-color: #222222;
+    cursor: pointer;
+}
