@@ -1,22 +1,24 @@
 import React from 'react';
+import '../styles/Board.css';
+import Cell from './Cell';
 
 const Board: React.FC = () => {
     return (
-        <div className="board" style={{ display: 'flex', flexDirection: 'column', width: '300px', height: '300px' }}>
-            <div className="board-row" style={{ display: 'flex', flexDirection: 'row' }}>
-                <div style={{ border: '1px solid black' }}>X</div>
-                <div style={{ border: '1px solid black' }}>X</div>
-                <div style={{ border: '1px solid black' }}>X</div>
+        <div className="board">
+            <div className="board-row">
+                <Cell text="X" />
+                <Cell text="O" />
+                <Cell text="X" />
             </div>
-                <div className="board-row" style={{ display: 'flex', flexDirection: 'row' }}>
-                <div style={{ border: '1px solid black' }}>X</div>
-                <div style={{ border: '1px solid black' }}>X</div>
-                <div style={{ border: '1px solid black' }}>X</div>
+            <div className="board-row">
+                <Cell text="X" />
+                <Cell text="O" />
+                <Cell text="X" />
             </div>
-                <div className="board-row" style={{ display: 'flex', flexDirection: 'row' }}>
-                <div style={{ border: '1px solid black' }}>X</div>
-                <div style={{ border: '1px solid black' }}>X</div>
-                <div style={{ border: '1px solid black' }}>X</div>
+            <div className="board-row">
+                <Cell text="X" />
+                <Cell text="O" />
+                <Cell text="X" />
             </div>
         </div>
     );
