@@ -2,13 +2,15 @@ import React from 'react';
 
 interface Props {
     value: string;
+    className: string;
+    onClick: (value: string) => void;
 }
 
-const Button: React.FC<Props> = ({ value }) => {
+const Button: React.FC<Props> = ({ value, className, onClick }) => {
     return (
-        <div>
+        <button className={className} onClick={() => onClick(value)}>
             {value}
-        </div>
+        </button>
     );
 }
 
