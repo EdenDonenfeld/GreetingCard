@@ -1,9 +1,9 @@
 .calculator {
     width: 25vw;
     padding: 10px;
-    border: 2px solid #2d2d32;
+    border: 2px solid #282c34;
     border-radius: 1rem;
-    background-color: #2d2d32;
+    background-color: #282c34;
 }
 
 .result {
@@ -14,7 +14,7 @@
     padding: 0.5rem;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    background-color: #2d2d32;
+    background-color: #282c34;
     color: white;
 }
 
