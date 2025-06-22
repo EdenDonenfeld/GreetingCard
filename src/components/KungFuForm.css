@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.form-button {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 1rem;
+
+}
