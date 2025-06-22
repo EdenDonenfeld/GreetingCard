@@ -1,0 +1,22 @@
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button {
+    padding: 1rem 2rem;
+    font-size: 1em;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.message {
+    font-size: 1.2em;
+    font-style: italic;
+}
