@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import KungFuForm from './components/KungFuForm';
 
 function App() {
   return (
-    <p>Hello World</p>
+    <KungFuForm />
   );
 }
 
