@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import PushupTracker from './components/PushupTracker';
 
 function App() {
   return (
-    <p>Hello World</p>
+    <PushupTracker />
   );
 }
 
