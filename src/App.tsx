@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import Switch from './components/Switch';
 
 function App() {
   return (
-    <p>Hello World</p>
+    <Switch />
   );
 }
 
