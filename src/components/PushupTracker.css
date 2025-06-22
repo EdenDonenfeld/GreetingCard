@@ -1,0 +1,27 @@
+.pushup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+.pushups {
+    font-size: 2rem;
+}
+
+.pushup-container button {
+    padding: 0.5rem 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
