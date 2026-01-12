@@ -1,9 +1,11 @@
 import React from 'react';
 import './App.css';
+import UserList from './components/UserList';
 
 function App() {
+  const users = ['Eden', 'Noam', 'Koral'];
   return (
-    <p>Hello World</p>
+    <UserList users={users}/>
   );
 }
 
