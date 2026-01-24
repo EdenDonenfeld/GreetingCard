@@ -1,9 +1,10 @@
 import React from 'react';
 import './App.css';
+import CustomButton from './components/CustomButton';
 
 function App() {
   return (
-    <p>Hello World</p>
+    <CustomButton label="Click Me" color="orange" />
   );
 }
 
